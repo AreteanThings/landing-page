@@ -1,0 +1,192 @@
+
+/* assignment defined styles */
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.hero, footer, nav {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero-copy, .nav-links > li > a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.nav-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, .banner {
+    background-color: #3882f6;
+}
+
+.headline {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+/* Added styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body > div, body > nav {
+    padding: 10px 8%;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.hero-image {
+    height: 200px;
+    width: 400px;
+    background-color: darkgray;
+   justify-content: center;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 0.9;
+}
+
+button {
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.hero-copy {
+    margin: 1;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.information-images {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    border:#3882f6 solid 2px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.image-block {
+    width: 150px
+}
+
+.image-copy {
+    opacity: 0.6;
+}
+
+.third {
+    margin-top: 50px;
+    padding-left: 14%;
+    padding-right: 14%;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner {
+    margin-top: 40px;
+    padding: 2% 10%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    color: #f9faf8;
+    gap: 15px;
+}
+
+.banner-left {
+    margin: 0;
+}
+
+.cta {
+    border: white solid 1px;
+}
+
+.cta-headline {
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
